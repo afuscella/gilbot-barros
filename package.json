@@ -6,7 +6,8 @@
     "dev": "ts-node-dev src/app.ts",
     "commit": "cz",
     "lint:fix": "eslint ./ --fix",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "discord.js": "^12.5.3",
